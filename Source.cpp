@@ -37,6 +37,8 @@ bool MyInteger::isPrime()
 		if (value % i == 0)
 			return false;
 		else
+			//PT -- don't return true until you get out of the loop
+			// -1
 			return true;
 		break;
 	}
@@ -66,6 +68,8 @@ bool MyInteger::isPrime(int c)
 		if (c % i == 0)
 			return false;
 		else
+			//PT -- as above
+			// -1
 			return true;
 		break;
 	}
